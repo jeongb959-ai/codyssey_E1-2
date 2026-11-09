@@ -1,0 +1,77 @@
+{
+    "quizzes": [
+        {
+            "topic": "Python 기초",
+            "question": "Python에서 화면에 글자를 출력하는 함수는?",
+            "options": [
+                "input()",
+                "print()",
+                "int()",
+                "str()"
+            ],
+            "answer": 2,
+            "explanation": "print() 함수는 화면에 값을 출력합니다."
+        },
+        {
+            "topic": "Python 자료형",
+            "question": "문자열을 나타내는 자료형은?",
+            "options": [
+                "int",
+                "str",
+                "float",
+                "bool"
+            ],
+            "answer": 2,
+            "explanation": "str은 문자열을 나타내는 자료형입니다."
+        },
+        {
+            "topic": "Python 조건문",
+            "question": "조건이 참일 때 실행되는 코드를 작성하는 키워드는?",
+            "options": [
+                "for",
+                "while",
+                "if",
+                "def"
+            ],
+            "answer": 3,
+            "explanation": "if문은 조건이 참인지 확인합니다."
+        },
+        {
+            "topic": "Python 반복문",
+            "question": "정해진 횟수만큼 반복할 때 주로 사용하는 반복문은?",
+            "options": [
+                "if",
+                "for",
+                "class",
+                "return"
+            ],
+            "answer": 2,
+            "explanation": "for문은 반복 가능한 객체를 순서대로 처리합니다."
+        },
+        {
+            "topic": "Python 리스트",
+            "question": "리스트의 마지막에 요소를 추가하는 메서드는?",
+            "options": [
+                "add()",
+                "insert()",
+                "append()",
+                "remove()"
+            ],
+            "answer": 3,
+            "explanation": "append()는 리스트의 마지막에 요소를 추가합니다."
+        },
+        {
+            "topic": "Python 함수",
+            "question": "함수를 정의할 때 사용하는 키워드는?",
+            "options": [
+                "class",
+                "def",
+                "import",
+                "return"
+            ],
+            "answer": 2,
+            "explanation": "def 키워드로 함수를 정의합니다."
+        }
+    ],
+    "best_score": 3
+}
