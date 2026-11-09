@@ -71,7 +71,19 @@
             ],
             "answer": 2,
             "explanation": "def 키워드로 함수를 정의합니다."
+        },
+        {
+            "topic": "수학",
+            "question": "1+1=?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "answer": 2,
+            "explanation": "1+1은 2다."
         }
     ],
-    "best_score": 3
+    "best_score": 6
 }
