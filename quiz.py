@@ -45,4 +45,35 @@ class Quiz:
             answer=data["answer"],
             explanation=data["explanation"]
         )
-        
+        if __name__ == "__main__":
+
+    # 퀴즈 객체 생성
+    quiz = Quiz(
+        topic="Python 기초",
+        question="Python에서 화면에 글자를 출력하는 함수는?",
+        options=["input()", "print()", "int()", "str()"],
+        answer=2,
+        explanation="print() 함수는 화면에 값을 출력합니다."
+    )
+
+    # 퀴즈 정보 출력
+    print("주제:", quiz.topic)
+    print("질문:", quiz.question)
+
+    for index, option in enumerate(quiz.options, start=1):
+        print(f"{index}. {option}")
+
+    # 정답 확인
+    print("\n정답 확인:")
+    print("2번 선택:", quiz.check_answer(2))
+    print("1번 선택:", quiz.check_answer(1))
+
+    # 딕셔너리 변환
+    quiz_data = quiz.to_dict()
+    print("\n딕셔너리 변환:")
+    print(quiz_data)
+
+    # 딕셔너리에서 객체 복원
+    restored_quiz = Quiz.from_dict(quiz_data)
+    print("\n복원된 퀴즈:")
+    print(restored_quiz.question)
