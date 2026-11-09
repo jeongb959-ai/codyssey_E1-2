@@ -290,9 +290,15 @@ git log --oneline --graph --decorate --all
 
 **브랜치 및 병합 스크린샷**
 
-![Git 브랜치 및 병합 기록](docs/screenshots/git%20commit.png)
+![Git 브랜치 및 병합 기록](docs/screenshots/git%20branch%20merge.png)
 
-### 11-4. GitHub 저장소
+### 11-4 git clone / pull
+
+**git clone 과 pull 실행 확인**
+
+![git clone 과 pull 실행 확인](docs/screenshots/깃_clone_pull.png)
+
+### 11-5. GitHub 저장소
 
 GitHub 저장소:
 
